@@ -7,7 +7,13 @@ computerChoice = (Math.floor(Math.random() * 3));
 function choose(){
     randomnumber = (Math.floor(Math.random() * 3));
     if (randomnumber == 0) {
-        console.log("r")
+        console.log("r");
+    }
+    else if(randomnumber == 1) {
+        console.log("p");
+    }
+    else if(randomnumber == 2) {
+        console.log("s");
     }
 }
 
